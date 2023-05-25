@@ -1,15 +1,11 @@
-.grid-container {
-    display: grid;
-    margin: 20px;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
-  }
-  
-  .grid-item {
-    background-color: transparent;
-    border: 1px solid rgba(0, 0, 0, 0.698);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-  }
-  
+.container {
+  display: grid;
+  background-color: transparent;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, 100px);
+}
+
+.item {
+  border: 2px solid black;
+  background-color: transparent;
+}
